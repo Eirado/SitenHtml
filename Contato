@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #f1f1f1;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      width: 48px;
+      height: 32px;
+      overflow: hidden;
+    }
+
+    header .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 10px;
+    }
+
+    nav ul li:first-child {
+      margin-left: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .blog-content {
+      margin-top: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .blog-content h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: left;
+      margin-top: 0;
+    }
+
+    .blog-content label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      text-align: left;
+    }
+
+    .blog-content input,
+    .blog-content textarea {
+      width: 200px;
+      padding: 8px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .blog-content textarea {
+      width: 400px;
+      height: 150px;
+    }
+
+    .blog-content input[type="submit"] {
+      display: block; /* Para colocar o botão em uma nova linha */
+      margin-top: 10px; /* Margem superior para separar do texto */
+      padding: 8px 20px;
+      background-color: #4CAF50;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .blog-content input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .blog-content .name-container,
+    .blog-content .contact-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; /* Alterado para alinhar no topo */
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/Users/gabrieleirado/Downloads/triangle and purple.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Início</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="blog-content">
+    <h1>Fale Conosco</h1>
+    <form>
+      <div class="name-container">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required>
+      </div>
+
+      <div class="contact-container">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+      </div>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="8" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+
+</body> 
+</html>
 
