@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #f1f1f1;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      width: 48px;
+      height: 32px;
+      overflow: hidden;
+    }
+
+    header .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .blog-title {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 10px;
+    }
+
+    nav ul li:first-child {
+      margin-left: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .blog-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      margin-top: 550px; /* Adicionando margem superior */
+    }
+
+    .blog-content h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .blog-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .blog-content img {
+      width: 345px;
+      height: 145px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/Users/gabrieleirado/Downloads/triangle and purple.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Início</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1 class="blog-title">Blog</h1>
+
+  <div class="blog-content">
+    <h1>City of tears</h1>
+    <p>"City of Tears" é uma das áreas mais emblemáticas e fascinantes do jogo "Hollow Knight". Localizada no reino subterrâneo de Hallownest, essa majestosa cidade desolada oferece uma experiência visual e sonora deslumbrante.</p>
+    <img src="/Users/gabrieleirado/Downloads/assets for html/City of tears.jpeg" alt="Imagem do Blog">
+    <p>Ao adentrar a "City of Tears", os jogadores são recebidos por uma paisagem sombria, dominada pela chuva incessante que ecoa pelos corredores vazios. A arquitetura grandiosa dos prédios em ruínas e os detalhes minuciosos presentes em cada cenário criam uma atmosfera melancólica e enigmática.
+
+      A cidade é habitada por NPCs solitários, cada um com sua própria história e propósito, que oferecem diálogos intrigantes e missões secundárias cativantes. Os jogadores podem explorar as ruas estreitas e intricadas da cidade, desvendando segredos escondidos, desafiando inimigos formidáveis e desfrutando da rica narrativa que permeia esse local.</p>
+    
+    <h1>Crystal Peaks</h1>
+    <p>é uma das áreas mais deslumbrantes e desafiadoras encontradas no mundo de "Hollow Knight". Situada nas alturas de Hallownest, essa região brilhante e repleta de cristais encanta os jogadores com sua beleza única e perigos inesperados.
+
+    </p>
+    <img src="/Users/gabrieleirado/Downloads/assets for html/Crystal Peaks.webp" alt="Imagem do Segundo Item do Blog">
+    <p>Ao entrar em "Crystal Peaks", os jogadores são imediatamente envolvidos pela luminosidade radiante dos cristais que adornam cada superfície. A luz refratada cria um espetáculo visual, enchendo os olhos com uma miríade de cores e reflexos reluzentes. No entanto, por trás dessa beleza, escondem-se desafios complexos e criaturas perigosas.
+
+      A exploração de "Crystal Peaks" requer habilidade e astúcia, pois os jogadores devem navegar por plataformas estreitas, desviar de projéteis afiados e enfrentar inimigos formidáveis. A presença constante de cristais quebráveis adiciona um elemento estratégico, exigindo que os jogadores ajam com cautela para evitar danos e avançar em direção às áreas mais profundas.</p>
+  
+    <h1>Queens Garden</h1>
+    <p>é um oásis de beleza e mistério no vasto reino de "Hollow Knight". Localizado no coração de Hallownest, esse jardim majestoso é habitado por uma flora exuberante, criaturas místicas e segredos antigos que aguardam para serem desvendados.
+
+    </p>
+    <img src="/Users/gabrieleirado/Downloads/assets for html/Queen's Garden's..jpeg" alt="Imagem do Segundo Item do Blog">
+    <p>Ao adentrar "Queens Garden", os jogadores são recebidos por um cenário de tirar o fôlego. Flores vibrantes em tons de rosa, roxo e verde se estendem até onde a vista alcança, criando uma paisagem exótica e encantadora. Árvores antigas e imponentes erguem-se em meio aos jardins, como guardiãs silenciosas de mistérios ocultos.
+
+      A atmosfera de "Queens Garden" é permeada por um ar de tranquilidade e serenidade, mas não se deixe enganar pela aparência pacífica. Enigmas complexos, plataformas desafiadoras e inimigos ardilosos escondem-se entre a vegetação exuberante, exigindo dos jogadores habilidade e destreza para avançar.</p>
+  
+    <h1>The Abyss</h1>
+    <p>"The Abyss" é uma região enigmática e aterrorizante que reside nas profundezas insondáveis do mundo de "Hollow Knight". Esse lugar sombrio e misterioso é um testemunho vivo do lado mais obscuro e desconhecido de Hallownest.
+
+    </p>
+    <img src="/Users/gabrieleirado/Downloads/assets for html/The Abyss.jpeg" alt="Imagem do Segundo Item do Blog">
+    <p>Ao adentrar "The Abyss", os jogadores são imediatamente envolvidos por uma escuridão profunda, que engole qualquer traço de luz e mergulha tudo em uma negritude assombrosa. A ausência de cores e a sensação de opressão criam uma atmosfera angustiante, onde cada passo é incerto e cada sombra esconde ameaças desconhecidas.
+
+      Esse ambiente sinistro é habitado por criaturas grotescas e abominações sombrias, que se escondem nas sombras e esperam por intrusos desavisados. Enfrentar os perigos que espreitam em "The Abyss" requer coragem, habilidade e uma compreensão profunda dos segredos ocultos desse lugar ameaçador.</p>
+  
+    <h1>The Hive</h1>
+    <p>"The Hive" é uma fascinante e perigosa região encontrada no vasto mundo de "Hollow Knight". Localizado em uma área isolada e de difícil acesso, esse enxame de insetos frenéticos e colmeias intrincadas é um verdadeiro desafio para os aventureiros destemidos.
+
+    </p>
+    <img src="/Users/gabrieleirado/Downloads/assets for html/The Hive.webp" alt="Imagem do Segundo Item do Blog">
+    <p>"The Hive" é uma fascinante e perigosa região encontrada no vasto mundo de "Hollow Knight". Localizado em uma área isolada e de difícil acesso, esse enxame de insetos frenéticos e colmeias intrincadas é um verdadeiro desafio para os aventureiros destemidos.
+
+    </p>
+  </div>
+
+</body>
+</html>
 
